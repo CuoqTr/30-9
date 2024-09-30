@@ -48,8 +48,8 @@ class CacNhanSuKhac extends Person {
 }
 public class QuanLyNhanSu {
     public static void main(String[] args) {
-        GiangVien gv1 = new GiangVien("Nguyen Van A", 1980);
-        SinhVien sv1 = new SinhVien("Duong Thanh Binh", 2000,"23020516");
+        GiangVien gv1 = new GiangVien("Nguyen Van An", 1983);
+        SinhVien sv1 = new SinhVien("Tran Le Cuong", 2005,"23020517");
         System.out.println(gv1.getInfo());
         System.out.println(sv1.getInfo());
     }
